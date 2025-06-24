@@ -1,0 +1,48 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
+
+<nav class="nav">
+    <ul>
+        <li><a href="{base}/" data-text="Home">Domu</a></li>
+        <li> | Fotoatelier Pavla Chrapava</li>
+        <li><a href="{base}/Fotogalerie" data-text="Fotogalerie">Fotogalerie</a></li>
+        <li><a href="{base}/Cenik" data-text="Fotogalerie">Cenik</a></li>
+        <li><a href="{base}/Kontakt" data-text="Fotogalerie">Kontakt</a></li>
+        
+    </ul>
+</nav>
+
+<style>
+
+    .nav {
+        display: flex;
+        width: 100%;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+        font-family: var(--font-family-heading);
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-style: bold;
+        color: white;
+    }
+    
+    nav ul li a {
+        font-family: var(--font-family-heading);
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-style: bold;
+        color: white;
+    }
+
+</style>
