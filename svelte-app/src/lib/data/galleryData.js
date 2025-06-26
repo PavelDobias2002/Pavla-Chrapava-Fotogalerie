@@ -4,7 +4,7 @@
 export const allItems = [
     {
       id: '1',
-      image: `${base}/exterier/(2).webp`,
+      image: `${base}/exterier/(2).JPG`,
       title: 'A',
       style: 'Exterier',
     },

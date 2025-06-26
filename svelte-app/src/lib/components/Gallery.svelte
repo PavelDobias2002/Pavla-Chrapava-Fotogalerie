@@ -27,10 +27,6 @@
   <!-- Category filters -->
   <div class="category-filters">
     <button 
-      class={activeCategory === 'Všechny Fotky' ? 'active' : ''} 
-      on:click={() => filterByCategory('Všechny Fotky')}
-    >Všechny Fotky</button>
-    <button 
       class={activeCategory === 'Exterier' ? 'active' : ''} 
       on:click={() => filterByCategory('Exterier')}
     >Exterier</button>
@@ -87,7 +83,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .category-filters button {
@@ -130,7 +126,7 @@
 
     gap: 1.5rem;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 10rem;
     margin-right: 10rem;
     margin-bottom: 5rem;

@@ -12,5 +12,10 @@ import { onMount } from 'svelte';
 <Gallery />
 
 <style>
+
+  h1{
+    font-family: var(--font-family-heading);
+    padding-bottom: 1rem;
+  }
     
 </style>

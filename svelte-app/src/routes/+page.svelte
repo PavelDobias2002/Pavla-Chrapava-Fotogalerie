@@ -32,9 +32,7 @@
       <img src="{base}/logo.webp" alt="Logo" />
   </div>
 
-  <h1>Vítejte v mé Fotogalerii</h1>
-  <p>Moje jméno je <b>Pavla Chrápavá</b>, a fotím fotečky.
-  </p>
+  <h1>Hrozne rada fotim fotecky atd atd</h1>
   
 </div>
 
@@ -44,13 +42,6 @@
   <li><a href="https://www.linkedin.com/in/pavel-dobias-789060292/" target="_blank" rel="noopener noreferrer"><img src="{base}/LinkedInLogo.webp" alt="LinkedInIcon" /></a></li>
   <li><a href="https://codeberg.org/PavelDobias" target="_blank" rel="noopener noreferrer"><img src="{base}/codeberglogo.webp" alt="CodebergIcon" /></a></li>
 </ul>
-
-
-
-
-  <Gallery />
-
-
 
 <style>
 
@@ -64,6 +55,12 @@
         text-align: center;
         margin-bottom: 2rem;
         margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .section-header h1 {
@@ -76,6 +73,7 @@
     .section-header p {
       font-family: var(--font-family-paragraph);
       font-size: 1.5rem;
+      
     }
 
     .logo {
@@ -84,10 +82,11 @@
   }
   
   .logo img {
-    max-width: 100%;
-    width: 100%;
+    max-width: 50%;
+    width: 50%;
     height: auto;
     transition: transform 0.3s ease, width 0.3s ease;
+    border-radius: 50%;
   }
   
   .logo img:hover {
