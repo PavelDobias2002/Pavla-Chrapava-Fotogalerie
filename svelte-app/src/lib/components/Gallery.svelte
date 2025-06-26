@@ -49,20 +49,20 @@
       on:click={() => filterByCategory('Miminka')}
     >Miminka</button>
     <button 
-      class={activeCategory === 'Rodinné Foto' ? 'active' : ''} 
-      on:click={() => filterByCategory('Rodinné Foto')}
+      class={activeCategory === 'Rodinne' ? 'active' : ''} 
+      on:click={() => filterByCategory('Rodinne')}
     >Rodinné Foto</button>
     <button 
-      class={activeCategory === 'Školní Foto' ? 'active' : ''} 
-      on:click={() => filterByCategory('Školní Foto')}
+      class={activeCategory === 'Skolni' ? 'active' : ''} 
+      on:click={() => filterByCategory('Skolni')}
     >Školní Foto</button>
     <button 
       class={activeCategory === 'Svatby' ? 'active' : ''} 
       on:click={() => filterByCategory('Svatby')}
     >Svatby</button>
     <button 
-      class={activeCategory === 'Těhotné' ? 'active' : ''} 
-      on:click={() => filterByCategory('Těhotné')}
+      class={activeCategory === 'Tehotne' ? 'active' : ''} 
+      on:click={() => filterByCategory('Tehotne')}
     >Těhotné</button>
     
     

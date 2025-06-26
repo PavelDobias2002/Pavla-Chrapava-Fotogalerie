@@ -36,13 +36,6 @@
   
 </div>
 
-<ul>
-  <li><a href="{base}/CV"><img src="{base}/cvredbrightsmaller.png" alt="CVicon" /></a></li>
-  <li><a href="https://github.com/PavelDobias2002" target="_blank" rel="noopener noreferrer"><img src="{base}/github-logo-logo.webp" alt="GitHubIcon" /></a></li>
-  <li><a href="https://www.linkedin.com/in/pavel-dobias-789060292/" target="_blank" rel="noopener noreferrer"><img src="{base}/LinkedInLogo.webp" alt="LinkedInIcon" /></a></li>
-  <li><a href="https://codeberg.org/PavelDobias" target="_blank" rel="noopener noreferrer"><img src="{base}/codeberglogo.webp" alt="CodebergIcon" /></a></li>
-</ul>
-
 <style>
 
   /* Ensure the body or main container has enough height */
