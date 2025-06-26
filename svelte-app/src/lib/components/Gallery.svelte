@@ -22,6 +22,20 @@
     }
   }
 
+  //modal
+  let showModal = false;
+  let modalImage = null;
+
+  function openModal(image) {
+    modalImage = image;
+    showModal = true;
+  }
+
+  function closeModal() {
+    showModal = false;
+    modalImage = null;
+  }
+
 </script>
 
   <!-- Category filters -->
@@ -67,16 +81,68 @@
   
         <div class="image">
           
-            <img src={base}{item.image} alt={item.title}>
+            <img src={item.image} alt={item.title} on:click={() => openModal(item.image)} style="cursor:pointer;">
         
         </div>
   
       </div>
     {/each}
+
+    {#if showModal}
+      <div class="modal-backdrop" on:click={closeModal}>
+        <div class="modal-content" on:click|stopPropagation>
+          <button class="close-btn" on:click={closeModal}>&times;</button>
+          <img src={modalImage} alt="Full Image" />
+        </div>
+      </div>
+    {/if}
   
   </div>
 
   <style>
+    .modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background: transparent;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content img {
+  max-width: 90vw;
+  max-height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 10px rgba(0,0,0,0.3);
+  background: #fff;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2.5rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
     .category-filters 
     {
     display: flex;
