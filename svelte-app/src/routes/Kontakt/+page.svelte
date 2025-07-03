@@ -22,8 +22,39 @@ import { onMount } from 'svelte';
   </tbody>
 </table>
 
+<ul>
+  <li><a href="https://www.facebook.com/ChrapavaPavla/?locale=cs_CZ" target="_blank" rel="noopener noreferrer"><img src="{base}/facebookLogo.png" alt="facebookIcon" /></a></li>
+  <li><a href="https://www.instagram.com/fotoatelier.pavla/" target="_blank" rel="noopener noreferrer"><img src="{base}/instagramLogo.png" alt="instagramIcon" /></a></li>
+</ul>
+
 
 <style>
+
+  ul img{
+    display: inline-block;
+    max-width: 5rem;
+    width: 100%;
+    height: auto;
+  }
+
+  ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li {
+        margin: 0 15px;
+        transition: transform 0.3s ease;
+    }
+    
+
+    ul li:hover{
+      transform: translateY(-5px);
+    }
 
   h1{
     font-family: var(--font-family-heading);

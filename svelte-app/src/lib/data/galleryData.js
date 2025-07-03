@@ -47,7 +47,7 @@ export const allItems = [
   },
   {
     id: '8',
-    image: `${base}/exterier/(51).JPG`,
+    image: `${base}/exterier/DSC_1512.JPG`,
     title: 'Exterier',
     style: 'Exterier',
   },
@@ -77,7 +77,7 @@ export const allItems = [
   },
   {
     id: '13',
-    image: `${base}/exterier/(89).JPG`,
+    image: `${base}/exterier/DSC_1542.JPG`,
     title: 'Exterier',
     style: 'Exterier',
   },
@@ -101,13 +101,13 @@ export const allItems = [
   },
   {
     id: '17',
-    image: `${base}/exterier/(98).JPG`,
+    image: `${base}/exterier/(2).JPG`,
     title: 'Exterier',
     style: 'Exterier',
   },
   {
     id: '18',
-    image: `${base}/exterier/2.JPG`,
+    image: `${base}/exterier/DSC_1550.JPG`,
     title: 'Exterier',
     style: 'Exterier',
   },
@@ -131,19 +131,19 @@ export const allItems = [
   },
   {
     id: '22',
-    image: `${base}/exterier/DSC_1512.JPG`,
+    image: `${base}/exterier/(51).JPG`,
     title: 'Exterier',
     style: 'Exterier',
   },
   {
     id: '23',
-    image: `${base}/exterier/DSC_1542.JPG`,
+    image: `${base}/exterier/(89).JPG`,
     title: 'Exterier',
     style: 'Exterier',
   },
   {
     id: '24',
-    image: `${base}/exterier/DSC_1550.JPG`,
+    image: `${base}/exterier/(98).JPG`,
     title: 'Exterier',
     style: 'Exterier',
   }
