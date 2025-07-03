@@ -7,14 +7,14 @@
     
     <ul class="left-section">
         
-        <li><a href="{base}/Fotogalerie" data-text="Fotogalerie">Fotogalerie</a></li>
+        <li><a href="{base}/" data-text="Home">Fotoatelier - Pavla</a></li>
         
         
     </ul>
     
     <ul class="middle-section">
         
-        <li><a href="{base}/" data-text="Home">Fotoatelier - Pavla</a></li>
+        <li><a href="{base}/Fotogalerie" data-text="Fotogalerie">Fotogalerie</a></li>
         
     </ul>
 
@@ -42,7 +42,7 @@
     }
 
     .left-section a{
-        font-family: var(--font-family-paragraph);
+        font-family: var(--font-family-heading);
         font-size: 2rem;
         font-weight: 400;
         font-style: bold;
@@ -58,7 +58,7 @@
     }
 
     .right-section a{
-        font-family: var(--font-family-paragraph);
+        font-family: var(--font-family-heading);
         font-size: 2rem;
         font-weight: 400;
         font-style: bold;

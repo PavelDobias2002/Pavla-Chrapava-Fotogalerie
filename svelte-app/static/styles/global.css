@@ -3,9 +3,9 @@
    ============================== */
    :root {
     /* Color Variables */
-    --primary-color: #a05035;
+    --primary-color: #fe667f;
     --secondary-color: #000000ff;
-    --background-color: #e9dfc6;
+    --background-color: #F8Edf1;
     --text-color: #1a1a1a;
     --link-hover-color: #cf0011;
 
@@ -16,7 +16,7 @@
     --font-weight-heading: <weight>;
     --font-style-heading: normal;
 
-    --font-family-paragraph: 'PT Serif', serif;
+    --font-family-paragraph: 'Lato', sans-serif;
     --font-optical-sizing: auto;
     --font-weight: 400;
     --font-style: normal;

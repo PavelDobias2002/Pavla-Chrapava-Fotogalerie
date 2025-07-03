@@ -7,15 +7,9 @@ import { onMount } from 'svelte';
 
 
 
-<h1>Fotogalerie</h1>
-
 <Gallery />
 
 <style>
 
-  h1{
-    font-family: var(--font-family-heading);
-    padding-bottom: 1rem;
-  }
     
 </style>

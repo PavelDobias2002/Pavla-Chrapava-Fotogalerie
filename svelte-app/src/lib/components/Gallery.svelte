@@ -192,10 +192,12 @@
 
     gap: 1.5rem;
     justify-content: center;
+    
     margin-top: 1rem;
     margin-left: 10rem;
     margin-right: 10rem;
     margin-bottom: 5rem;
+
     
   }
 
