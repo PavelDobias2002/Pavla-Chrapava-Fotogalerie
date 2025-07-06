@@ -111,7 +111,7 @@ cena obsahuje: 80 ks upravených fotografiích formátu 13×18 + všechny nafoce
 .price-table th, .price-table td {
   padding: 1rem;
   text-align: left;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .price-table th {
@@ -137,8 +137,9 @@ cena obsahuje: 80 ks upravených fotografiích formátu 13×18 + všechny nafoce
     margin-bottom: 1rem;
   }
   .price-table th, .price-table td {
+    border-bottom: 0px solid white;
     padding: 0.7rem;
-    text-align: left;
+    text-align: center;
   }
 }
 </style>
