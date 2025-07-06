@@ -150,6 +150,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 1rem;
+    
   }
 
   .category-filters button {
@@ -160,7 +161,9 @@
   font-size: 1.5rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  color: var(--primary-color);
   font-family: var(--font-family-heading);
+  background-color: #ffffff;
 }
 
 .category-filters button:hover {

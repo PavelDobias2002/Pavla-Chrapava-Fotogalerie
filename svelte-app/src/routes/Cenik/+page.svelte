@@ -118,6 +118,7 @@ cena obsahuje: 80 ks upravených fotografiích formátu 13×18 + všechny nafoce
   background: var(--primary-color, #f5f5f5);
   font-weight: 600;
   font-style: bold;
+  color: #ffffff;
 }
 
 .price-table tr:last-child td {
