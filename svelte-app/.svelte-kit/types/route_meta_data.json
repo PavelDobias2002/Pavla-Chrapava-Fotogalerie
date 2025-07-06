@@ -1,0 +1,15 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/Cenik": [
+		"src/routes/+layout.js"
+	],
+	"/Fotogalerie": [
+		"src/routes/+layout.js"
+	],
+	"/Kontakt": [
+		"src/routes/+layout.js"
+	]
+}
