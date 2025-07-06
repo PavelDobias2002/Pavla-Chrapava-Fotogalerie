@@ -15,9 +15,23 @@
         
   <div class="logo">
       <img src="{base}/logo.webp" alt="Logo" />
+      <ul>
+        <li><h1>Fotoatelier - Pavla</h1></li>
+        <li>rodinné foto</li>
+        <li>svatební foto</li>
+        <li>dětské foto</li>
+        <li>portretní foto</li>
+        <li>těhotenské foto</li>
+      </ul>
   </div>
 
-  <p>Vítejte v mé Fotogalerie, jmenuji se Pavla Chrápavá.</p>
+  <p>
+    
+    Jmenuji se Pavla Chrápavá, jsem fotografka, která miluje zachycovat ty nejkrásnější momenty života - od prvních krůčků dětí, přes rodinné radosti, až po chvíle lásky na svatbách. <br> 
+    
+    Když se dívám na své fotografie, často si vzpomenu na slova, která říkají: <br><i>"Každý okamžik je jako květina - chvilka a zvadnou, ale v našich srdcích a fotografiích zůstávají navždy."</i>
+
+.</p>
   
 </div>
 
@@ -27,10 +41,11 @@
 
 
   .section-header{
+        display: grid;
+        grid-template-rows: auto;
+
         text-align: center;
         margin-bottom: 2rem;
-        margin-top: 2rem;
-        display: flex;
         justify-content: center;
         align-items: center;
         max-width: 50%;
@@ -43,68 +58,103 @@
       font-size: 2.5rem;
       font-weight: 400;
       margin-bottom: 0.5rem;
+      color: var(--primary-color);
     }
   
     .section-header p {
       font-family: var(--font-family-paragraph);
-      font-size: 2rem;
+      font-size: 1.5rem;
+      border-top: 1px solid var(--primary-color);
+      padding:1rem;
       
     }
 
     .logo {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem; 
     margin-bottom: 1rem;
   }
   
   .logo img {
-    max-width: 50%;
-    width: 50%;
+    max-width: 25%;
+    width: 25%;
     height: auto;
-    transition: transform 0.3s ease, width 0.3s ease;
     border-radius: 50%;
   }
-  
-  .logo img:hover {
-    transform: translateY(-10px);
-  }
+
+  .logo ul {
+  list-style: disc;
+  padding-left: 1.2em;
+  margin: 0;
+  font-size: 1.3rem;
+  text-align: left;
+  padding-bottom:0.5rem;
+}
+
+.logo ul li:first-child {
+  list-style: none;
+  padding-left: 0;
+  padding-top:0.5rem;
+
+}
 
   
 
-  /* Responsive styles for tablets */
-  @media (max-width: 992px) {
-    .section-header h1 {
-      font-size: 2rem;
-    }
 
-    .logo img {
-      max-width: 75%;
-    }
+  
+
+  /* Tablets */
+@media (max-width: 992px) {
+  .section-header {
+    max-width: 90%;
+    padding: 0 1rem;
   }
-
-  /* Responsive styles for mobile */
-  @media (max-width: 768px) {
-    .section-header h1 {
-      font-size: 1.6rem;
-      padding: 0 1rem;
-    }
-
-    .logo img {
-      max-width: 75%;
-    }
-
+  .section-header h1 {
+    font-size: 2rem;
   }
+}
 
-  /* Extra small screens */
-  @media (max-width: 480px) {
-    .section-header h1 {
-      font-size: 1.4rem;
-    }
-
-
-    .logo img {
-      max-width: 180px;
-    }
-
+/* Mobile */
+@media (max-width: 768px) {
+  .section-header {
+    max-width: 100%;
+    padding: 0 0.5rem;
   }
+  .section-header h1 {
+    font-size: 1.6rem;
+    padding: 0 0.5rem;
+  }
+  .section-header p {
+    font-size: 1.1rem;
+    padding: 0.7rem;
+  }
+  .logo {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .logo img {
+    max-width: 70vw;
+    min-width: 60px;
+  }
+  .logo ul {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .section-header h1 {
+    font-size: 1.2rem;
+  }
+  .logo img {
+    max-width: 120px;
+    width: 60vw;
+  }
+}
 
 </style>

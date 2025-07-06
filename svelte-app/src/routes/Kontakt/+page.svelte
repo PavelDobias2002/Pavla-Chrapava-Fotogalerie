@@ -74,7 +74,7 @@ import { onMount } from 'svelte';
 .price-table td {
   padding: 0.5rem;
   text-align: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 

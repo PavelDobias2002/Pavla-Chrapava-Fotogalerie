@@ -1,8 +1,6 @@
 # Website Development - Portfolio
 
 ## Project Title and Summary
-This is my portfolio website used to show the world my work. <br>
-This project has been done as part of School project in my second year.
-
+This is portfolio website for client who is a photographer <br>
 
 <i>Praise the Omnnissiah</i>

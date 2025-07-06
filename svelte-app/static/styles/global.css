@@ -3,10 +3,10 @@
    ============================== */
    :root {
     /* Color Variables */
-    --primary-color: #c04c16;
+    --primary-color: #9a0002;
     --secondary-color: #000000ff;
-    --background-color: #f3b6bfbe;
-    --text-color: #1a1a1a;
+    --background-color: #f8dce8;
+    --text-color: #010101;
     --link-hover-color: #cf0011;
 
     /* Font Variables */

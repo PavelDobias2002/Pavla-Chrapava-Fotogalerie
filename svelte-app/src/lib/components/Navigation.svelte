@@ -1,9 +1,19 @@
 <script>
     import { base } from '$app/paths';
+    let menuOpen = false;
+    function toggleMenu() {
+        menuOpen = !menuOpen;
+    }
 </script>
 
 
 <nav class="nav">
+
+    <button class="hamburger" on:click={toggleMenu} aria-label="Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
     
     <ul class="left-section">
         
@@ -12,17 +22,17 @@
         
     </ul>
     
-    <ul class="middle-section">
-        
+    <ul class="middle-section {menuOpen ? 'open' : ''}">
+
         <li><a href="{base}/Fotogalerie" data-text="Fotogalerie">Fotogalerie</a></li>
-        
+
     </ul>
 
-    <ul class="right-section">
-        
-        <li><a href="{base}/Cenik" data-text="Fotogalerie">Cenik</a></li>
-        <li><a href="{base}/Kontakt" data-text="Fotogalerie">Kontakt</a></li>
-        
+    <ul class="right-section {menuOpen ? 'open' : ''}">
+
+        <li><a href="{base}/Cenik" data-text="Cenik">Cenik</a></li>
+        <li><a href="{base}/Kontakt" data-text="Kontakt">Kontakt</a></li>
+
     </ul>
 
 </nav>
@@ -31,6 +41,7 @@
 
     .left-section {
         justify-self: start;
+        margin-left:15px;
     }
 
     .middle-section {
@@ -70,8 +81,10 @@
         grid-template-columns: 1fr auto 1fr;
         width: 100%;
         justify-content: center;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        border-bottom: 1px solid var(--primary-color);
+        border-top: 1px solid var(--primary-color);
         padding: 1rem;
+        background-color: #ffffff;
     }
 
     nav ul {
@@ -81,5 +94,30 @@
         display: flex;
         align-items: center;
     }
+
+    .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    grid-column: 2;
+    z-index: 1001;
+}
+
+.hamburger .bar {
+    width: 28px;
+    height: 3px;
+    background: var(--primary-color, #333);
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+    
 
 </style>
