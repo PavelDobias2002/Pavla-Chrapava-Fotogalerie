@@ -81,7 +81,7 @@
   
         <div class="image">
           
-            <img src={item.image} alt={item.title} on:click={() => openModal(item.image)} style="cursor:pointer;">
+            <img src={item.image} alt={item.title} on:click={() => openModal(item.image)} style="cursor:pointer;" width="300" height="200">
         
         </div>
   
