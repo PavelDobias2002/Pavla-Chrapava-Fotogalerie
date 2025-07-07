@@ -11,7 +11,7 @@ import { onMount } from 'svelte';
 <table class="price-table">
   <tbody>
     <tr>
-      <td><b>Adresa:</b> Jinacovice 111</td>
+      <td><b>Adresa:</b> Jinačovice 111</td>
     </tr>
     <tr>
       <td><b>Telefon:</b> +420 728 653 494 </td>
