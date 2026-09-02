@@ -22,17 +22,17 @@ import { onMount } from 'svelte';
     <tr>
       <td>MALÁ KOLEKCE</td>
       <td>Obsahuje poslané fotografie s výběrem 15 ks upravených + 6 ks foto formátu 13x18</td>
-      <td>950 Kč</td>
+      <td>1050 Kč</td>
     </tr>
     <tr>
       <td>STŘEDNÍ KOLEKCE</td>
       <td>Obsahuje poslané fotografie s výběrem 30 ks upravených + 15 ks foto formátu 13x18</td>
-      <td>1350 Kč</td>
+      <td>1450 Kč</td>
     </tr>
     <tr>
       <td>VELKÁ KOLEKCE</td>
       <td>Obsahuje poslané fotografie s výběrem 45 ks upravených + 20 ks foto formátu 13x18</td>
-      <td>1950 Kč</td>
+      <td>2050 Kč</td>
     </tr>
   </tbody>
 </table>
@@ -56,21 +56,21 @@ import { onMount } from 'svelte';
       <td>Fotografování příjezdu nevěsty a ženicha, svatebního obřadu, skupinek svatebčanů, focení novomanželů v parcích a zahradách. Délka fotografování cca 2 hodiny.
 cena obsahuje: 30 ks upravených fotografiích formátu 13×18 + všechny nafocené snímky poslané na e-mail.
 </td>
-      <td>3500 Kč</td>
+      <td>3700 Kč</td>
     </tr>
     <tr>
       <td>KOLEKCE STANDART </td>
       <td>Fotografování příjezdu nevěsty a ženicha, svatebního obřadu, skupinek svatebčanů, focení novomanželů v parcích a zahradách. Focení svatebních zvyků, začátku hostiny, momentky stavebních hostů, svatební tabule. Délka fotografování cca 4 hodiny.
 cena obsahuje: 50 ks upravených fotografiích formátu 13×18 + všechny nafocené snímky poslané na e-mail.
 </td>
-      <td>4900 Kč</td>
+      <td>5500 Kč</td>
     </tr>
     <tr>
       <td>KOLEKCE EXKLUSIVE </td>
       <td>Fotografování u kadeřníka, vizážisty, oblékání nevěsty, fotografování příjezdu nevěsty a ženicha, svatebního obřadu, skupinek svatebčanů, focení novomanželů v parcích a zahradách, focení svatebních zvyků, začátku hostiny, momentky stavebních hostů, svatební tabule, aut, průběh svatební hostiny, krájení dortů, prvního tance novomanželů. Délka fotografování cca 10 hodin.
 cena obsahuje: 80 ks upravených fotografiích formátu 13×18 + všechny nafocené snímky poslané na e-mail.
 </td>
-      <td>7900 Kč</td>
+      <td>9000 Kč</td>
     </tr>
   </tbody>
 </table>
